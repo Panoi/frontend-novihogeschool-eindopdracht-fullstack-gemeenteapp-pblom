@@ -1,0 +1,24 @@
+.proposal-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 1rem;
+}
+
+.image-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.4rem;
+}
+
+.image-preview img {
+    width: 200px;
+}
+
+.image-preview-text {
+    padding: 0.4rem 0 0.4rem 0;
+    color: #164374;
+    font-weight: bold;
+}
