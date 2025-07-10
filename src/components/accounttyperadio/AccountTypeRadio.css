@@ -1,0 +1,14 @@
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 0.6rem;
+}
+
+.radio-button {
+    cursor: pointer;
+}
+
+.radio-title {
+    margin-bottom: 0.4rem;
+}

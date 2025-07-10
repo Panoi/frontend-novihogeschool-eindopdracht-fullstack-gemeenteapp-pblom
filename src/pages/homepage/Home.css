@@ -1,0 +1,50 @@
+
+.home-intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    padding: 1rem;
+}
+
+.intro-title {
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.municipality-search-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    padding: 1rem;
+}
+
+.municipality-div {
+    max-height: 250px;
+    width: 100%;
+    max-width: 250px;
+    margin-top: 1rem;
+    padding: 1rem;
+    overflow-y: auto;
+    text-align: center;
+   }
+
+.municipality-ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 0.5rem;
+}
+
+.municipality {
+    color: #164374;
+    font-size: 1.2rem;
+}

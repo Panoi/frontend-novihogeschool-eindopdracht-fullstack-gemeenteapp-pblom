@@ -1,0 +1,68 @@
+.proposal-card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color: white;
+    cursor: pointer;
+    gap: 0.3rem;
+}
+
+.image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    flex-grow: 0;
+}
+
+.proposal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.proposal-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #164374;
+}
+
+.proposal-description {
+    max-height: 200px;
+    overflow-y: auto;
+    font-size: 0.85rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.proposal-status {
+    font-size: 0.75rem;
+}
+
+.proposal-date {
+    color: #164374;
+    font-size: 0.75rem;
+}
+
+.button-div-proposal {
+    margin-top: auto;
+}
+
+.proposal-author{
+    color: #164374;
+}
+
+

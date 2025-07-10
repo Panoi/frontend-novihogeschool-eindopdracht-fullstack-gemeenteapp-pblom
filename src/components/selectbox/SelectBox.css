@@ -1,0 +1,29 @@
+/*Select op homepage*/
+.select-div.home {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    align-items: center;
+}
+
+.select-label.home{
+    display: flex;
+    font-size: 1.4rem;
+    color: #164374;
+    font-weight: bold;
+    margin: 0.4rem 0 0.4rem 0;
+}
+
+.select-input.home {
+    width: 100%;
+}
+
+/*proposal detail page div*/
+.form-group.proposal-detail{
+    margin: 0;
+}
+
+
+
+

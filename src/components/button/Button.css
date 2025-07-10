@@ -1,0 +1,40 @@
+.button-global {
+    background-color: #164374;
+    color: white;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.button-global.profile {
+    margin-bottom: 0.5rem;
+    max-width: 100px;
+}
+
+.button-navbar {
+    background-color: #f6f6f6;
+    color: #164374;
+    padding: 0.4rem 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+.button-global.create-proposal{
+    margin-top: 1.4rem;
+}
+
+.button-global.delete-proposal{
+    width: 100%;
+}
+
+.button-global.status-proposal {
+    max-width: 100px;
+}
+
+.button-global.review {
+margin: 0 0 1rem 0;
+}

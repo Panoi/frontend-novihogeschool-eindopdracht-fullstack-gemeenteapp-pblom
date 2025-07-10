@@ -1,0 +1,87 @@
+
+/*Global container*/
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+/*error message & succes-message*/
+.error-message {
+    color: red;
+    padding-top: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.success-message {
+    color: #164374;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+}
+
+/*Global text elementen*/
+h2 {
+    color: #164374;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+h1 {
+    color: #164374;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+legend {
+    color: #164374;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/*Proposal lijst wordt gebruikt op de profile en proposaloverview page*/
+.proposal-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/*globale styling voor inputvelden, worden op meerdere pagina's en componenten gebruikt*/
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.form-label {
+    margin: 0.4rem 0 0.4rem 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.input-field{
+    padding: 0.7rem;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
