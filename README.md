@@ -23,6 +23,11 @@
 
 De GemeenteApp is een full-stack webapplicatie waarmee inwoners voorstellen kunnen indienen en reacties kunnen achterlaten. Gemeenten hebben toegang tot de webapplicatie waarbij zij statusbehandelingen op ingediende voorstellen kunnen achterlaten zoals, “in afwachting”, “goedgekeurd” etc. Daarnaast kunnen zij ook reacties plaatsen op voorstellen. Naast inwoners en gemeenten is er een derde rol: admin. Deze heeft via de API volledige toegang tot alle data, maar binnen de frontend alleen toegang tot het aanmaken van een nieuwe gemeente. De applicatie bestaat uit een Spring Boot backend en een React frontend.
 
+In dit document de installatiehandleiding neem ik jullie mee met de functionaliteiten, bondigdheden, gebruikte technieken, hoe je lokaal kan draaien, hoe je test kan draaien en welke testgebruikers er binnen mijn systeem beschikbaar zijn.
+
+Link naar backend project op Github: (https://github.com/Panoi/backend-novihogeschool-eindopdracht-fullstack-gemeenteapp-pblom)
+Link naar frontend project op Github: (https://github.com/Panoi/frontend-novihogeschool-eindopdracht-fullstack-gemeenteapp-pblom)
+
 ## Functionaliteiten
 
 - Gebruikersregistratie en inloggen, inclusief JWT-authenticatie.
